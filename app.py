@@ -23,4 +23,4 @@ def integration_without_N(a, b):
     T=[]
     for N in ([10, 100, 100, 1000, 10000, 100000, 1000000]):
         T+=[(integration(float(a), float(b), N))]
-    return 'Done.'
+    return 'Done : '+T
